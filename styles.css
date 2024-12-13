@@ -1,0 +1,124 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Centering container */
+.container {
+    text-align: center;
+    background: #3b3f47;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 500px;
+    position: relative; /* Make the container a reference for absolute positioning */
+}
+
+/* Title Styling */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #f3f3f3;
+}
+
+/* Label Styling */
+label {
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    margin-top: 10px;
+    color: #ddd;
+}
+
+/* Input Styling */
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background-color: #fff;
+    color: #333;
+}
+
+input:focus {
+    border-color: #4CAF50;
+}
+
+/* Button Styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Output Section Styling (Server Info) */
+.server-info {
+    text-align: left;
+    background: #2e3239;
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 14px;
+    color: #ddd;
+    width: 100%; /* Full width to fit under the input box */
+    margin-top: 20px;
+}
+
+/* Server icon styling */
+.server-info img {
+    max-width: 64px;
+    max-height: 64px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    float: right; /* Position the icon to the right */
+}
+
+/* Information text styling */
+.server-info p {
+    margin: 10px 0;
+}
+
+.server-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.server-info ul li {
+    margin: 5px 0;
+}
+
+/* Error Styling */
+.error {
+    color: red;
+    font-size: 14px;
+}
