@@ -1,3 +1,5 @@
+THIS DEMO CODE: https://naotica2.github.io/server-checker/
+
 Just a basic code that shows the status of a Minecraft server, kinda like Hypixel and all that.
 
 Feel free to edit it or add anything to make it better—just make sure you know what you're doing with the code.
